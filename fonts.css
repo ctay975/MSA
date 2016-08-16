@@ -1,5 +1,6 @@
 li.question {
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1#mainheading{
@@ -18,4 +19,9 @@ p.answers{
 
 p#answersdisplayed{
     color: white;
+}
+
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
