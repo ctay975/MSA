@@ -1,0 +1,21 @@
+li.question {
+    color: white;
+}
+
+h1#mainheading{
+    color: white;
+}
+
+body {
+    background-repeat: no-repeat; 
+    background-image: url("http://www.chunoa.com/wp-content/uploads/2016/01/Nice-Simple-Wallpaper-Ribbon-Image-Plain-Picture.jpg");
+    background-size: cover;
+}
+
+p.answers{
+    color: white;
+}
+
+p#answersdisplayed{
+    color: white;
+}

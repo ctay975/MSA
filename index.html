@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="fonts.css">
     <title> Cameron's Student Accelerator Page </title>
+    <script src="java.js"></script>
 </head>
 <body>
     <h1 id="mainheading" align = "center"> This is Cameron's Student Accelerator Web Page </h1>
-    <p class="introduction"> Basically my idea is to create a basic site to test whether or not the user has color blindness through a brief number of online tests. </p>
 
-    <div class="introduction"> <p> The Requirements of MSA program that will be met by this website are: </p>
-    <ol> <p> From the Compulsary List: </p> 
-      <li>Hosted and published on Microsoft Azure </li>
-      <li>HTML5 / CSS for the UI (Responsive). We recommend Bootstrap. </li>
-      <li>TypeScript for the logic, using dynamic API calls. </li>
-      <li>Uses GitHubfor Source Control, and Open Source </li>
-    </ol>
-    <ol> <p> And the Optional Items: </p>
-      <li>Makes use of two JQuery Plug-Ins which will be:<br>
-        <ul>
-          <li> PLACEHOLDER </li>
-          <li> PLACEHOLDER </li>
-        </ul>
-      </li>
-      <li> Continuous Deployment via GitHub </li>
-    </ol>
-    <p id="link">
-      Here is the link to the test page: <a href="test.html"> Test Page </a> 
-    <p>
-    </div>
+<form method="actions.ts" name="quiz1">
+  <ol>
+  <li class="question"> What is Poulet in French? </li>
+  <p class="answers"><input type="radio" name="pouletfr" value="Chicken"> Chicken <br>
+  <input type="radio" name="pouletfr" value="Fish"> Fish <br>
+  <input type="radio" name="pouletfr" value="Sandwich"> Sandwich <br>
+  <input type="radio" name="pouletfr" value="Cabbage"> Cabbage <br> </p>
+
+  <li class="question"> What would be considered an appropriate answer to the question: "Comment ca va"? </li>
+  <p class="answers"><input type="radio" name="ccva" value="Merci"> "Merci" <br>
+  <input type="radio" name="ccva" value="cvb"> "Ca va bien" <br>
+  <input type="radio" name="ccva" value="Pommes"> "Les pommes" <br>
+  <input type="radio" name="ccva" value="Mercredi"> "Mercredi" <br> </p>
+
+  <p id="submitparagraph"><input type="submit" value="Submit Answers" onclick="answer();" ></p>
+
+  </ol>
+</form>
+<p id="answersdisplayed"></p>
 </body>
 </html>
