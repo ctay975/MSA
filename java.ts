@@ -50,6 +50,7 @@ function answer(): void {
     }
     alert(outputstring);
     alert("Your final mark of " + Math.round(output) + "% has been submitted");
+
 }
 
 //JQUERY

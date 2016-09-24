@@ -6,8 +6,3 @@ $(document).ready(function(){
   });
   $.backstretch("background.jpg");
 });
-
-
-    
-
-
