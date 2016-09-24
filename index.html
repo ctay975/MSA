@@ -4,6 +4,12 @@
     <link rel="stylesheet" href="fonts.css">
     <title> Cameron's Student Accelerator Page </title>
     <script src="java.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script src="icheck-1.x/icheck.js"></script>
+    <script src="jquery.backstretch.min.js"></script>
+    <script src="jquery.js"></script>
+    <link href="icheck-1.x/skins/polaris/polaris.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://jqueryvalidation.org/files/demo/site-demos.css">
 </head>
 <body>
     <h1 id="mainheading" align = "center"> This is Cameron's Student Accelerator Web Page </h1>
@@ -17,24 +23,19 @@
   <input type="radio" name="pouletfr" value="Cabbage"> Cabbage <br> </p>
 
   <li class="question"> What would be considered an appropriate answer to the question: "Comment ca va"? </li>
-  <p class="answers"><input type="radio" name="ccva" value="Merci"> "Merci" <br>
-  <input type="radio" name="ccva" value="cvb"> "Ca va bien" <br>
-  <input type="radio" name="ccva" value="Pommes"> "Les pommes" <br>
-  <input type="radio" name="ccva" value="Mercredi"> "Mercredi" <br> </p>
+  <p class="answers"><input type="radio" name="ccva" value="Merci"> Merci <br>
+  <input type="radio" name="ccva" value="cvb"> Ca va bien <br>
+  <input type="radio" name="ccva" value="Pommes"> Les pommes <br>
+  <input type="radio" name="ccva" value="Mercredi"> Mercredi <br> </p>
 
-  <li class="question"> What illness does Cale James suffer from?</li>
-  <p class="answers"><input type="radio" name="q3f" value="a1"> Autism <br>
-  <input type="radio" name="q3f" value="a2"> Social Anxiety <br>
-  <input type="radio" name="q3f" value="a3"> Banteritis <br>
-  <input type="radio" name="q3f" value="a4"> All of the Above <br> </p>
+  <li class="question"> Where is France located? </li>
+  <p class="answers"><input type="radio" name="q3f" value="a1"> South America <br>
+  <input type="radio" name="q3f" value="a2"> Asia <br>
+  <input type="radio" name="q3f" value="a3"> Africa <br>
+  <input type="radio" name="q3f" value="a4"> Europe <br> </p>
+  </ol>>
+  <input type="submit" value="Submit Answers" onclick="answer();"/>
+  </form>
 
-
-  <p id="submitparagraph"><input type="button" value="Submit Answers" onclick="answer();" ></p>
-
-  </ol>
-</form>
-<ol>
-<p id="demo" align="center"></p>
-</ol>
 </body>
 </html>

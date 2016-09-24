@@ -9,10 +9,10 @@ let qno: number = 0;
 
 function answer(): void {
 
-    let outputstring: string = "<h3> Answers to Questions Above: </h3>"; 
+    let outputstring: string = "Answers to Questions Above: \n\n"; 
     //retrieve quiz answers in form
     var quiz1ans: string[] = document.forms["quiz1"].elements
-    var length = (quiz1ans.length - 1)/4;
+    var length: number = ((quiz1ans.length)-1)/4;
     let correct: number = 0;
 
     //QUESTION ONE
@@ -44,10 +44,13 @@ function answer(): void {
 
 
     //OUTPUT
-    var output: string = correct/length * 100 + "%";
+    var output: number = correct/length * 100;
     for (qno = 0; qno < length; qno += 1){
-    outputstring += "Your Answer to Question " + (qno + 1) + " was " + results[qno] + "<br>";
+    outputstring += " Your Answer to Question " + (qno + 1) + " was " + results[qno] + "\n";
     }
-    outputstring += "<br><ul>You Final Mark is " + output + "<ul>";
-    document.getElementById("demo").innerHTML = outputstring;
+    alert(outputstring);
+    alert("Your final mark of " + Math.round(output) + "% has been submitted");
 }
+
+//JQUERY
+

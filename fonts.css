@@ -1,4 +1,4 @@
-li.question {
+.question {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -9,7 +9,7 @@ h1#mainheading{
 
 body {
     background-repeat: no-repeat; 
-    background-image: url("http://www.chunoa.com/wp-content/uploads/2016/01/Nice-Simple-Wallpaper-Ribbon-Image-Plain-Picture.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
 }
 
