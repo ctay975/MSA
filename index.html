@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="fonts.css">
     <title> Cameron's Student Accelerator Page </title>
     <script src="java.js"></script>
@@ -14,7 +15,7 @@
 <body>
     <h1 id="mainheading" align = "center"> Basic French Test </h1>
 
-<form method="" name="quiz1">
+<form id="quiz1" onSubmit="answer()">
   <ol>
   <li class="question"> What is Poulet in French? </li>
   <p class="answers"><input type="radio" name="pouletfr" value="Chicken"> Chicken <br>
@@ -34,7 +35,7 @@
   <input type="radio" name="q3f" value="a3"> Africa <br>
   <input type="radio" name="q3f" value="a4"> Europe <br> </p>
   </ol>>
-  <input type="submit" value="Submit Answers" onclick="answer();"/>
+  <input type="submit" value="Submit Answers"/>
   </form>
 
 </body>
